@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Data Structures</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+<body>
+    
+    <header>
+        <i class="fas fa-bars"></i>
+        <h2>Data Structures</h2>
+    </header>
+
+    <nav>
+        <a href="index.html"><i class="fas fa-house-damage ihome"></i></a>
+        <a href="InToPost.html">Infix To Postfix</a>
+        <a href="PostToPre.html">Postfix To Prefix</a>
+        <a class="active" href="PreToPost.html">Prefix To Postfix</a>
+    </nav>
+
+    <div class="Layout">
+        <h1>Prefix To Postfix</h1>
+
+        <input type="text" id="getInput" name="getExpression" placeholder="Enter Prefix Expression">
+        <button onclick="convertPreExpToPost()" class="convert">Convert</button>
+
+        <br>
+        <br>
+
+        <table id="display">
+            <tr>
+                <th>Input</th>
+                <th>Stack</th>
+            </tr>
+        </table>
+
+        <br>
+
+        <label for="output">Postfix Expression:</label>
+        <output id="output"></output>
+    </div>
+
+    <script src="js/PrefixToPostfix.js"></script>
+</body>
+</html>
