@@ -1,6 +1,6 @@
 let strlenLastInput = 0;
 
-function convertExp() {
+function convertInExpToPost() {
     let table = document.getElementById("display");
 
     for(let i=0 ; i<strlenLastInput ; i++) {
